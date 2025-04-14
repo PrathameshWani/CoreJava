@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CoreJavaApplication {
 
 	public static void main(String[] args) {
-		System.out.println("##### Welcome To Core Java #####");
 		SpringApplication.run(CoreJavaApplication.class, args);
+		System.out.println("##### Welcome To Core Java #####");
 	}
 
 }
