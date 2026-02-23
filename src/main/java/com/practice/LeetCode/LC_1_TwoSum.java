@@ -21,7 +21,7 @@ public class LC_1_TwoSum {
 	        int[] nums = {2,7,11,15};
 	        int target = 9;
 	        LC_1_TwoSum s = new LC_1_TwoSum();
-	        System.out.println(s.twoSum(nums,target));
+	        System.out.println(s.twoSum(nums,target).toString());
 
 	    }
 
