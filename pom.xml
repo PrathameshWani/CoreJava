@@ -47,6 +47,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.smartengines</groupId>
+			<artifactId>selicense</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/selicense.jar</systemPath>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

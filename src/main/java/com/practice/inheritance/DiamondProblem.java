@@ -12,9 +12,9 @@ class B {
 	}
 }
 
-// class C extends A , B {     
+class C extends A , B {
 	
-// }
+}
 public class DiamondProblem {
 
 	public static void main(String[] args) {
