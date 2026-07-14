@@ -1,4 +1,4 @@
-package com.practice.dataabstraction;
+package com.practice.dataabstraction.interfacewise;
 
 public interface CarInterface {
 	

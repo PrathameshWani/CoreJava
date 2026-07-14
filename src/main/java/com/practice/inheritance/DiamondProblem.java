@@ -12,9 +12,11 @@ class B {
 	}
 }
 
-class C extends A , B {
-	
-}
+
+// Below thing is not allowed, its giving error at compile time only
+//class C extends A , B {
+//
+//}
 public class DiamondProblem {
 
 	public static void main(String[] args) {

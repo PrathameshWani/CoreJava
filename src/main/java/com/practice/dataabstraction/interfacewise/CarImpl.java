@@ -1,4 +1,4 @@
-package com.practice.dataabstraction;
+package com.practice.dataabstraction.interfacewise;
 
 class Car implements CarInterface{
 
@@ -27,7 +27,7 @@ class Car implements CarInterface{
 public class CarImpl {
 
 	public static void main(String[] args) {
-		Car c = new Car();
+		CarInterface c = new Car();
 		c.start();
 		c.applyBreak();
 		c.stop();
